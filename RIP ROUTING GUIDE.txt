@@ -1,0 +1,5 @@
+all work are same like state routing assingment just in this cace we done have to introduce every router its oporichito network just porichito network ke add korte hobe
+router config a giye RIP te giye just porichito network gulo address gulo add korte hobe
+
+RIP routing is more crucial when you work between 100,50 etc i mean many router 
+it makes the routing more easier

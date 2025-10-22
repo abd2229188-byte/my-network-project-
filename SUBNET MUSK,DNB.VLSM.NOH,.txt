@@ -1,0 +1,40 @@
+if i want to take class c IP:
+192.168.10.1/27(CIDR=CLASSLESS INTER DOMAIN ROUTING)     *if i want a certain amount of host then the network provider will give me a CIDR number that clasify how many host i can use under this CLASS C IP network
+
+IP is 2 type: static,dynamic
+the upper description was for dynamic 
+if we want to take static IP Address then for CLASS C IP ADDRESS total usagable host will be 256-2=254 host 
+example:192.168.10.0-192.168.10.255
+192.168.10.0=MIC address
+192.168.10.255=BROADCASTING ADDRESS
+THIS 2 HOST WILL BE ELIMINATED
+THAT MEANS THE usable is (192.168.10.1-192.168.10.255)255.255.255.0=254 host total usable
+by using subnet mask its indicate that this network is now secure and has been divided
+*now we have to count number of network
+NON=2 to the power CIDR-DNB
+*DNB in
+class C=24
+class b=16
+class a=8
+*CIDR will be given by network provider and DNB will be count as class(a,b,c) then you can count the number of network (NON) by using the rule that is given in upper
+
+*now number of host=2 to the power IPV4-CIDR
+*in IPV4 the BIT is 32
+
+THERE HAVE A PIC(CODE 19) OF SUBNETTING TABLE I HAVE ADD IN THIS FOLDER ITS INDICATE HOW HOST WILL BE DIVIDED INTO NETWORKS
+NOT ONLY THAT WE HAVE TO ADD A SUBNET MUSK TO DIVIDE THEM PROPERLY
+
+*subnet musk =
+VLSM=VARIABLE LENGTH SUBNET MUSK         (VLSM ER VALUE FIRST 0 TE BOSHBE)
+
+CLASS C=255.255.255.0
+CLASS B=255.255.0.0
+CLASS A=255.0.0.0
+THERE HAVE A PIC (CODE 21)HOW CALCULATE VLSM VALUE(PART 5 VIDEO)
+BUT I AM EXPLAINING IT
+FIRST KOTOGULO NETWORK NIBA AND KON ACTET A PORE DEKHBA THEN SEI OCTET ER MUSK ER SATHE DEFAULT NETWORK BIT JOG HOBE THEN JE VALUE HOBE 256 THEKE ELIMINATE HOBE THEN JA THAKBE SETAI BVLSM VALUE
+
+*WM (WELCOME MUSK)
+
+IF THE SUBNET MUSK IS 255.255.255.224 THEN THE WM IS 0.0.0.31 (31 HAS COME FROM 255-224)
+

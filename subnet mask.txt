@@ -1,0 +1,8 @@
+SUBNET MASK:
+
+
+IPv4 =32 Bit(8 into 4)
+Subnet mask(fixed) Network Bit =high,Host Bit=low
+Class C=255.255.255.0
+Class B=255.255.0.0
+Class A=255.0.0.0

@@ -1,0 +1,15 @@
+first take 2 router,switch and couple of device
+
+connect devices with each other if same then with cross cable if different then stable cable,in each router add a chip and cover
+
+then assign ip for each network and device just for memorizing
+
+first assign ip in each device then assign ip in router that make a connection between routerr and its own network this steps have to do for  each side have to turn on each router
+
+
+to build a connection between two router we have go router configur and then have to go in routing option then have to assign next hop and 2 other address and have to turn on if its off 
+
+and finally its done
+
+and its a default routing system there have many variations in routing option such as static routing,dynamic routing,bordaer protocool etc 
+In default routing yu can only use 2 router

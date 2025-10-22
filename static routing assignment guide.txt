@@ -1,0 +1,13 @@
+take three router and switch and couple of devices
+go router config turn off it and plug a chip in every router
+connection between first two router by serial dte cable and last two by serail dce plug in serial port
+then choose automatic cable choise and connect every router to switch and switch to device
+assign 5 network ip just to memorize
+now assign dhcp in router first go router cli then command first enable  then command config terminal thencommand ip dhcp pool MYPOOL then command network address space subnet mask which is 255.255.255.0 then command default router that mean you write gateway address then comman exit 
+ and turn on DHCP on devices so t will build automatic connection between router and his own network i have to on DHCP mode in every device if dont need then fine i will find this in ip configure mode 
+
+now we have to set ip address in router its not routing its just to assign a ip in every router we have to assign ip in serial option we have assign the ip in exact serial port number such as(s 0/2/1)always connect exact number
+
+now we havw to set routing in static routing amader ke prottek router a oporichito routing address set korte hobe and tar next hop hocche tar next router er ip address
+
+
